@@ -1,5 +1,5 @@
 ## Bienvenido a mi sitio de prueba
-You can use the [editor on GitHub](https://github.com/jorgeogf/prueba/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You can use the [editor on GitHub](https://docs.google.com/document/d/1xk0ge-G-uklR3c6lOLk_YJzoAdT6cNUm7LEBZk2Ln6s/edit?usp=drivesdk) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
