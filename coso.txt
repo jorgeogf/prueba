@@ -1,0 +1,28 @@
+<?php
+$servername = "localhost";
+$username = "root"; // Por defecto, el usuario es 'root' sin contraseña
+$password = "";
+$dbname = "nombre_de_tu_base_de_datos"; // Cambia esto por el nombre de tu base de datos
+
+// Crear conexión
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Verificar conexión
+if ($conn->connect_error) {
+    die("Conexión fallida: " . $conn->connect_error);
+}
+echo "Conexión exitosa";
+
+// Realizar una consulta simple
+$sql = "SELECT * FROM nombre_de_tu_tabla"; // Cambia esto por el nombre de tu tabla
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    while($row = $result->fetch_assoc()) {
+        echo "id: " . $row["id"]. " - Nombre: " . $row["nombre"]. "<br>";
+    }
+} else {
+    echo "0 resultados";
+}
+$conn->close();
+?>
